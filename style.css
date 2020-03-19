@@ -83,6 +83,10 @@ main{
     font-size: var(--font-size-small);
     font-family: 'Open Sans';
     text-align: center;
+
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 /* Dispositivos Pequenos */
 @media screen and (max-width: 600px){   
