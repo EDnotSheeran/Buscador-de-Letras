@@ -5,10 +5,12 @@ Buscador de letras de musicas
 ### Metas
 
 #### back
-- [ ] Preparar back
+- [ ] Preparar Back
   - [ ] API
   - [ ] Rotas
   
  #### Front
- 
- 
+ - [ ] Preparar Front
+  - Estrutura HTML
+  - Estilizacao CSS
+  - Responsividade com Media Queries
