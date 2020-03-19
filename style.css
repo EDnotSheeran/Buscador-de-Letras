@@ -2,6 +2,8 @@
 :root{
     font-family: 'Open Sans';
     --color-primary: #6b3074;
+    --color-secundary: #ffc300;
+    --semi-trasparent: rgba(255,255,255,0.2);
     --font-size-small: 18px;
     --font-size-medium: 20px;
     --font-size-large: 40px;
@@ -11,6 +13,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+}
 header{
     padding: 25px 0;
     display: flex;
@@ -19,18 +25,20 @@ header{
     align-items: center;
 
     background-color: var(--color-primary);
-    color: #fff;
+    color: white;
 }
 .titulo{
     font-weight: bold;
     font-size: var(--font-size-large);
     letter-spacing: 0.5rem;
     margin-bottom: 25px;
+    text-align: center;
 }
 form{
     height: 100%;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 label{
     text-transform: capitalize;
@@ -58,15 +66,48 @@ button{
     font-size: var(--font-size-medium);
     color: var(--color-primary);
 
-    background-color: #ffc300;
+    background-color: var(--color-secundary);
     border: none;
     border-radius: 5px;
+}
+button:hover{
+    color: var(--color-secundary);
+    background-color: white;
 }
 main{
     display: flex;
     justify-content: center;
-    padding-top: 15px;
 }
 #letras{
-    width: 50%;
+    padding: 1rem 1.5rem;
+}
+/* Dispositivos Pequenos */
+@media screen and (max-width: 600px){   
+    #letras{
+        width: 100%;
+    }
+    form{
+        flex-direction: column;
+    }
+    input[type=text]{
+        margin-bottom: 10px;
+    }
+}
+/* Dispositivos Largos */
+@media screen and (min-width: 600px) and (max-width: 800px){   
+    #letras{
+        width: 90%;
+    }
+    form{
+        flex-direction: column;
+    }
+    input[type=text]{
+        margin-bottom: 10px;
+    }
+}
+/* Dispositivos Pequenos */
+@media screen and (min-width: 800px){   
+    #letras{
+    width: 60%;
+    }
 }
