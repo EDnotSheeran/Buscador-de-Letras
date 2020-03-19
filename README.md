@@ -10,7 +10,7 @@ Buscador de letras de musicas
   - [ ] Rotas
   
  #### Front
- - [ ] Preparar Front
+ - [x] Preparar Front
   - [x] Estrutura HTML
   - [x] Estilizacao CSS
-  - [ ] Responsividade com Media Queries
+  - [x] Responsividade com Media Queries
