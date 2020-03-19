@@ -6,7 +6,7 @@ Buscador de letras de musicas
 
 #### back
 - [ ] Preparar Back
-  - [ ] API
+  - [x] API
   - [ ] Formulario
   - [ ] Exibicao do Resultado
 
