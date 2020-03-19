@@ -11,6 +11,6 @@ Buscador de letras de musicas
   
  #### Front
  - [ ] Preparar Front
-  - Estrutura HTML
-  - Estilizacao CSS
-  - Responsividade com Media Queries
+  - [ ] Estrutura HTML
+  - [ ] Estilizacao CSS
+  - [ ] Responsividade com Media Queries
