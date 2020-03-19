@@ -7,8 +7,9 @@ Buscador de letras de musicas
 #### back
 - [ ] Preparar Back
   - [ ] API
-  - [ ] Rotas
-  
+  - [ ] Formulario
+  - [ ] Exibicao do Resultado
+
  #### Front
  - [x] Preparar Front
   - [x] Estrutura HTML
