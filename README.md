@@ -5,10 +5,10 @@ Buscador de letras de musicas
 ### Metas
 
 #### back
-- [ ] Preparar Back
+- [x] Preparar Back
   - [x] API
-  - [ ] Formulario
-  - [ ] Exibicao do Resultado
+  - [x] Formulario
+  - [x] Exibicao do Resultado
 
  #### Front
  - [x] Preparar Front
