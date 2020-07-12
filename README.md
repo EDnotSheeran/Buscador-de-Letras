@@ -1,17 +1,7 @@
-# Buscador-de-Letras
+# Buscador de Letras
+
 Buscador de letras de musicas
-[visualizar](https://ednotsheeran.github.io/Buscador-de-Letras/.)
 
-### Metas
+[Testar](https://ednotsheeran.github.io/Buscador-de-Letras/.)
 
-#### back
-- [x] Preparar Back
-  - [x] API
-  - [x] Formulario
-  - [x] Exibicao do Resultado
-
- #### Front
- - [x] Preparar Front
-  - [x] Estrutura HTML
-  - [x] Estilizacao CSS
-  - [x] Responsividade com Media Queries
+![exemplo](https://i.imgur.com/bldWpuU.png)
